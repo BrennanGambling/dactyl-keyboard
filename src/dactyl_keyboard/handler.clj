@@ -37,7 +37,7 @@
                                 :tenting-angle          (range 15 3 -1)
                                 ;; :thumb-locations        ["tl" "tr" "ml" "mr" "bl" "br"]
                                 :thumb-tenting          (range -90 100 5)
-                                :rotate-x               (range -180 180 5)
+                                :rotate-x               (range -45 45 1)
                                 :height-offset          (range 4 26 2)}))
 
 (defn lightcycle [_]
